@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header>
+
+      <!--navbar-->
+      <nav class="navbar-fixed-top bianco">
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-6 col-md-6 col-lg-4">
+                <div id="altezzafissa">
+                  <img id="logo" src="img/logo.png" alt="">
+                </div>
+              </div>
+
+              <div class="hidden-xs hidden-sm hidden-md col-xs-12 col-md-4">
+                <ul>
+                  <li class="linknav dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      </ul>
+                  </li>
+                  <li class="linknav"><a href="#">Customers</a></li>
+                  <li class="linknav">
+                    <li class="linknav dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                  </li>
+                  <li class="linknav"><a href="#">Pricing</a></li>
+                </ul>
+              </div>
+
+              <div class="hidden-xs hidden-sm hidden-md col-xs-12 col-md-4">
+                <ul>
+                  <li class="linknav"><a href="#">Docs</a></li>
+                  <li class="linknav dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      </ul>
+                  </li>
+                  <li class="linknav"><a href="#">Login</a></li>
+                  <div class="bottonesign">Sign Up</div>
+                </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+      <!--navbar-->
+
+      <!--jumbotron-->
+      <section id="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-7">
+              <h2>The simplest cloud platform for developers & teams</h2>
+              <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+            </div>
+            <div class="col-xs-12 col-md-5">
+              <div class="formjumbotron">
+                <form>
+                  <h2>Deploy you app in seconds.</h2>
+                  <h3>Get started now.</h3>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-default">Create your Account</button>
+                  <button type="submit" id="google" class="btn btn-default"><i class="fab fa-google" id="googleicon"></i>Sign up with Google</button>
+                  <br>
+                  <span>By signig up you agree to the <a href="#">Terms of Service</a></span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--jumbotron-->
+
+    </header>
+
+  </body>
+</html>
