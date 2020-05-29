@@ -156,9 +156,11 @@ font-weight: bold;
 /*customer*/
 #linkcustomer {
   font-size: 22px;
+  color: #006aff;
 }
 #linkcustomer:hover {
   text-decoration: none;
+  color: #23527c;
 }
 #customer img {
   max-width: 100%;
@@ -237,7 +239,7 @@ font-weight: bold;
   width: 100%;
   padding: 20px 0;
 }
-.carousel {
+#trust .carousel {
   padding: 5% 20%;
 }
 #trust .carousel .carousel-control.left,
@@ -255,3 +257,41 @@ font-weight: bold;
   background-color: #006aff;
 }
 /*trust*/
+
+/*features*/
+#features {
+  padding: 40px 0;
+}
+#features .img {
+  padding-top: 20px;
+}
+#features h4 {
+  color: #142b58;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px 0;
+}
+#features h3, #features .img, #features p, #features div {
+  text-align: left;
+  font-weight: bold;
+}
+#features h3 {
+  padding: 0;
+  font-size: 20px;
+  color: #142b58;
+}
+#features p {
+  padding: 0;
+  font-size: 15px;
+  color: #5c6a88;
+}
+#features a {
+  padding: 0;
+  font-size: 15px;
+  color: #006aff;
+}
+#features a:hover {
+  text-decoration:none;
+  color: #23527c;
+}
+/*features*/
