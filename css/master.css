@@ -218,5 +218,40 @@ font-weight: bold;
   padding: 0;
   font-size: 15px;
 }
-
 /*customer*/
+
+
+/*trust*/
+#trust h4 {
+  color: #142b58;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px 0;
+}
+#trust p {
+  color: #5c6a88;
+  font-weight: bold;
+  font-size: 20px;
+}
+#trust img {
+  width: 100%;
+  padding: 20px 0;
+}
+.carousel {
+  padding: 5% 20%;
+}
+#trust .carousel .carousel-control.left,
+#trust .carousel .carousel-control.right {
+  background-image: none;
+  color: #031c4e;
+  text-shadow: none;
+}
+
+#trust .carousel .carousel-indicators li {
+  border-color: #006aff;
+}
+
+#trust .carousel .carousel-indicators li.active {
+  background-color: #006aff;
+}
+/*trust*/
