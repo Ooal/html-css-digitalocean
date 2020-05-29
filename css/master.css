@@ -67,6 +67,13 @@ font-weight: bold;
 .dropdown-menu > li > a {
   text-align: left;
 }
+.burger {
+  font-size: 30px;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  transform: translate( 0 , -50%);
+}
 /*navbar*/
 
 
