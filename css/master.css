@@ -47,7 +47,7 @@ font-weight: bold;
   display: inline-block;
   padding-right: 8px;
 }
-#altezzafissa {
+.altezzafissa {
  position: relative;
  height: 70px;
 }
@@ -200,6 +200,7 @@ font-weight: bold;
 }
 #deploy li a {
   color: #75809a;
+  font-size: 18px;
 }
 #deploy li a:hover {
   color: #006aff;
@@ -218,7 +219,8 @@ font-weight: bold;
 }
 #deploy .nesting p {
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: normal;
 }
 /*customer*/
 
@@ -282,7 +284,8 @@ font-weight: bold;
 }
 #features p {
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: normal;
   color: #5c6a88;
 }
 #features a {
@@ -295,3 +298,34 @@ font-weight: bold;
   color: #23527c;
 }
 /*features*/
+
+/*Service*/
+#service {
+  padding: 50px 0 ;
+}
+#service h4 {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px 0;
+}
+.mondo {
+  background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+}
+.bianco {
+  color: white;
+}
+#service .trasp {
+  color: #fff;
+  opacity: 0.6;
+}
+#service .table .bordo-sopra {
+  border-top: none;
+}
+#service a {
+  color:#00d7d2;
+}
+#service a:hover {
+  color:#0f29e4;
+  text-decoration: none;
+}
+/*Service*/
