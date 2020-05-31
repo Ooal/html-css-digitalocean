@@ -6,9 +6,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
   font-family: 'PT Sans', sans-serif;
 }
+header {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+
 ul {
   margin-bottom: 0;
 }
@@ -42,10 +48,20 @@ font-weight: bold;
   left: 0;
   transform: translate( 0 , -50%);
 }
+@media screen and (max-width: 749px) {
+  #logo {
+  max-width:100%;
+}
+}
+@media screen and (min-width: 750px) and (max-width: 969px) {
+  #logo {
+  max-width:80%;
+}
+}
 .linknav{
   line-height: 70px;
   display: inline-block;
-  padding-right: 8px;
+  padding-right: 6px;
 }
 .altezzafissa {
  position: relative;
@@ -329,3 +345,117 @@ font-weight: bold;
   text-decoration: none;
 }
 /*Service*/
+
+
+/*carousel2*/
+#car2 .carousel-inner {
+  background-color: white;
+  padding: 60px 0;
+}
+#car2 h4 {
+  color: #142b58;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+#car2  p {
+  color: #5b6987;
+  font-weight: normal;
+  font-size: 16px;
+}
+#car2 h3 {
+  color: #5b6987;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#car2 img {
+  max-width: 150px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+#car2 .carousel {
+  padding: 5% 20%;
+}
+#car2 .carousel .carousel-control.left,
+#car2 .carousel .carousel-control.right {
+  background-image: none;
+  color: #031c4e;
+  text-shadow: none;
+}
+
+#car2 .carousel .carousel-indicators li {
+  border-color: #006aff;
+}
+
+#car2 .carousel .carousel-indicators li.active {
+  background-color: #006aff;
+}
+#car2 .namecit {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*carousel2*/
+
+/*start*/
+.bg-home {
+  background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format);
+  background-color: #0069ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#start {
+  padding-bottom: 50px
+}
+#start h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 40px 0;
+}
+#start .bottonesign {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border: solid 2px white;
+}
+#start .bottonesign:hover {
+  color: white;
+  background-color: #006aff;
+}
+/*start*/
+
+/*footer*/
+#footer {
+  background-color: hsl(220,95%,8%);
+  color: white;
+  padding: 40px 0;
+}
+#footer li {
+  list-style: none;
+  font-size: 18px;
+}
+#footer h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#footer i {
+  font-size: 20px;
+  padding: 0 4px;
+}
+#footer .grassetto {
+  font-weight: bold;
+}
+#footer a,p {
+  color: hsla(0,0%,100%,0.5);
+  padding: 4px 0;
+}
+#footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+/*footer*/
