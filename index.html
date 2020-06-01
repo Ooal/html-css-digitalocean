@@ -13,64 +13,72 @@
   </head>
   <body>
 
-    <header>
+    <header id="barrafixed">
 
       <!--navbar-->
-      <nav class="navbar-fixed-top bianco">
-        <div class="container">
-          <div class="row">
-              <div class="col-xs-6 col-md-6 col-lg-4">
-                <div class="altezzafissa">
-                  <img id="logo" src="img/logo.png" alt="">
+      <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">
+                        <img src="img/logo.png" alt="" />
+                    </a>
                 </div>
-              </div>
-              <div class="col-xs-6 hidden-lg">
-                <div class="altezzafissa">
-                  <a href="#"><i class="fas fa-bars burger"></i></a>
+
+                <div class="collapse navbar-collapse text-left" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Customers</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Community <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Docs</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Support <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Login</a></li>
+                        <li>
+                            <form action="#">
+                                <button class="btn btn-default navbar-btn">Sign Up</button>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
-              </div>
-
-              <div class="hidden-xs hidden-sm hidden-md col-xs-12 col-md-4">
-                <ul>
-                  <li class="linknav dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      </ul>
-                  </li>
-                  <li class="linknav"><a href="#">Customers</a></li>
-                    <li class="linknav dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <i class="fas fa-angle-down"></i></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                  <li class="linknav"><a href="#">Pricing</a></li>
-                </ul>
-              </div>
-
-              <div class="hidden-xs hidden-sm hidden-md col-xs-12 col-md-4">
-                <ul>
-                  <li class="linknav"><a href="#">Docs</a></li>
-                  <li class="linknav dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <i class="fas fa-angle-down"></i></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      </ul>
-                  </li>
-                  <li class="linknav"><a href="#">Login</a></li>
-                  <li class="bottonesign">Sign Up</li>
-                </ul>
-              </div>
-          </div>
-        </div>
-      </nav>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
       <!--navbar-->
 
       <!--jumbotron-->

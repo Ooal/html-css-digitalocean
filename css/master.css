@@ -24,74 +24,57 @@ ul {
 }
 
 /*navbar*/
-.bottonesign{
-  display: inline-block;
+#barrafixed .nav {
+    padding-left: 120px;
+}
+#barrafixed .navbar {
   background-color: white;
-  color: #006aff;
-  border: solid 2px #006aff;
-  border-radius: 5px;
-  padding: 5px;
+  border-bottom: none;
+  border-radius: 0;
+}
+#barrafixed .navbar ul li a {
   font-size: 18px;
-}
-.bottonesign:hover {
-  color: #142b58;
-  background-color: rgba(51,153,255,0.2);
-}
-.bianco{
-background-color: white;
-font-weight: bold;
-}
-#logo{
-  max-width:45%;
-  position: absolute;
-  top: 45%;
-  left: 0;
-  transform: translate( 0 , -50%);
-}
-@media screen and (max-width: 749px) {
-  #logo {
-  max-width:100%;
-}
-}
-@media screen and (min-width: 750px) and (max-width: 969px) {
-  #logo {
-  max-width:80%;
-}
-}
-.linknav{
-  line-height: 70px;
-  display: inline-block;
-  padding-right: 6px;
-}
-.altezzafissa {
- position: relative;
- height: 70px;
-}
-.navbar-fixed-top a {
-  color: #142b58;
-  font-size: 18px;
-}
-.navbar-fixed-top a:hover {
-  color: #006aff;
-  text-decoration: none;
-}
-.dropdown-menu > li > a {
   font-weight: bold;
   color: #142b58;
 }
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+#barrafixed .navbar .collapsed {
+  background-color: #006aff;
+  border: white;
+}
+#barrafixed .navbar .collapsed span {
+  background-color: white;
+}
+#barrafixed .navbar .navbar-brand img {
+  width: auto;
+  height: 100%;
+}
+#barrafixed .navbar .btn {
+  border-color: #006aff;
   color: #006aff;
+  font-weight: bold;
+}
+#barrafixed .navbar .btn:hover {
   background-color: rgba(51,153,255,0.2);
+  color: #142b58;
 }
-.dropdown-menu > li > a {
-  text-align: left;
+
+@media (max-width: 1200px) {
+#barrafixed .navbar-toggle {
+  display: block;
+  margin-right: 0;
 }
-.burger {
-  font-size: 30px;
-  position: absolute;
-  top: 45%;
-  right: 0;
-  transform: translate( 0 , -50%);
+#barrafixed .navbar-collapse.collapse {
+  display: none !important;
+}
+#barrafixed .navbar-header {
+  float: none;
+}
+#barrafixed .collapse.in {
+  display: block !important;
+}
+#barrafixed .nav {
+  padding-left:80px;
+}
 }
 /*navbar*/
 
@@ -459,3 +442,12 @@ font-weight: bold;
   text-decoration: none;
 }
 /*footer*/
+
+@media (max-width: 763px) {
+.glyphicon-chevron-left::before {
+  content: "";
+}
+.glyphicon-chevron-right::before {
+  content: "";
+}
+}
