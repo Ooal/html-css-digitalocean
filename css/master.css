@@ -25,7 +25,7 @@ ul {
 
 /*navbar*/
 #barrafixed .nav {
-    padding-left: 120px;
+    padding-left: 115px;
 }
 #barrafixed .navbar {
   background-color: white;
@@ -52,6 +52,7 @@ ul {
   border-color: #006aff;
   color: #006aff;
   font-weight: bold;
+  font-size: 16px;
 }
 #barrafixed .navbar .btn:hover {
   background-color: rgba(51,153,255,0.2);
@@ -450,4 +451,15 @@ ul {
 .glyphicon-chevron-right::before {
   content: "";
 }
+#barrafixed .navbar-toggle {
+  margin-right: 10px;
+}
+#footer h4 {
+  padding-top: 15px;
+}
+}
+
+@media (max-width: 970px) {
+#footer h4 {
+  padding-top: 15px;
 }
